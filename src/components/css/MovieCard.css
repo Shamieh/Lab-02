@@ -1,0 +1,53 @@
+.card-con {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+    gap: 20px;
+    justify-items: center;
+    padding: 20px;
+  }
+  
+  .card {
+    background: linear-gradient(180deg, #F5C518 0%, #000 100%);
+    border: 1px solid #000;
+    border-radius: 10px;
+    padding: 10px;
+    text-align: center;
+    /* box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1); */
+    width: 100%;
+    max-width: 250px;
+    min-width: 220px;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+    height: 100%; /* allow equal height if container supports */
+  }
+  
+  .card img {
+    border-radius: 5px;
+    width: 100%;
+    max-width: 200px;
+    height: auto;
+    display: block;
+    margin: 0 auto;
+    flex-shrink: 0;
+  }
+  
+  .card h4{
+    margin: 10px 0 0 0;
+    height: 60px;              /* fixed height */
+    
+    display: flex;             /* make h3 a flex container */
+    align-items: center;       /* vertical center */
+    justify-content: center;   /* horizontal center */
+    
+    text-align: center;        /* center multiline text */
+    
+    overflow: hidden;
+    text-overflow: ellipsis;
+    display: -webkit-box;
+    -webkit-line-clamp: 2;     /* limit lines */
+    -webkit-box-orient: vertical;
+    line-height: 1.2em;
+    font-weight: 600;
+  }

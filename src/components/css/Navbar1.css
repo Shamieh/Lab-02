@@ -1,0 +1,47 @@
+/* App.css */
+
+/* Navbar Brand Styling */
+
+.navbar-brand {
+    font-size: 1.8rem;
+    font-weight: bold;
+    color: #000 !important;
+    margin-left: 10px;
+  }
+  
+  /* Navbar Links Styling */
+  .nav-link {
+    color: #000 !important;
+    transition: color 0.3s ease;
+    margin: 5px;
+  }
+  
+  .nav-link:hover {
+    color: #ffffff !important;
+    text-decoration: underline;
+  }
+  
+  /* Navbar Background Override (optional for custom themes) */
+  .navbar-dark {
+    background: linear-gradient(90deg, #343a40 0%, #212529 100%);
+  }
+  
+  .navbar-primary {
+    background: linear-gradient(90deg, #007bff 0%, #0056b3 100%);
+  }
+  
+  .navbar-light {
+    background: linear-gradient(90deg, #F5C518 0%, #000 120%);
+  }
+  
+  /* Add slight padding below navbar */
+  .navbar {
+    margin-bottom: 20px;
+    border-radius: 10px;
+  }
+  
+  /* Container width adjustments if needed */
+  .container {
+    max-width: 1200px;
+  }
+  

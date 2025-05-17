@@ -1,0 +1,37 @@
+.container{
+    display: flex;
+    align-items: flex-start;
+    max-width: 100%;
+    margin: 0;
+    padding: 20px;
+    box-sizing: border-box;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;}
+
+
+.text-cont{
+    display: grid;
+}
+img {
+    border-radius: 5px;
+    width: 100%;
+    max-width: 400px;
+    height: auto;
+    display: block;
+    margin: 0 auto;
+    flex-shrink: 0;
+  }
+
+  h2{
+    color: #F5C518;
+  }
+
+  p{
+    color: white;
+  }
+
+.button{
+    background: linear-gradient(180deg, #F5C518 0%, #000 120%);
+    border-radius: 5px;
+    color: #000;
+    border-color: #000;
+}
